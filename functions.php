@@ -105,7 +105,9 @@ add_action( 'widgets_init', 'unquieted_widgets_init' );
  * Enqueue scripts and styles.
  */
 function unquieted_scripts() {
-	wp_enqueue_style( 'unquieted-style', get_stylesheet_uri() );
+    
+        //Enqueue Google Fonts
+        wp_enqueue_style('unquieted-fonts', 'https://fonts.googleapis.com/css?family=Codystar|Open+Sans:400,400i,800');
 
 	wp_enqueue_script( 'unquieted-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
