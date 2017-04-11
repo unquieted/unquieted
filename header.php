@@ -25,6 +25,11 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'unquieted' ); ?></a>
 
+        <figure class="header-image">
+            	<?php the_header_image_tag(); ?>
+
+        </figure><!-- .header-image -->
+        
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<?php
