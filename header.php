@@ -26,7 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'unquieted' ); ?></a>
 
         <figure class="header-image">
-            	<?php the_header_image_tag(); ?>
+                <?php if (is_front_page()) { the_header_image_tag(); } ?>
 
         </figure><!-- .header-image -->
         
