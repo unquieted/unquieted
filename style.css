@@ -940,6 +940,72 @@ ul.children.toggled-on {
 	margin: 0 0 1.5em;
 }
 
+.cat-links {
+	font-size: 90%;
+	font-weight: 700;
+}
+
+.cat-links a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #7F7F00;
+}
+
+.cat-links a:focus, .cat-links a:hover {
+	background-color: #7F7F00;
+	color: white;
+}
+
+.entry-title {
+	margin: .125em 0 .25em;
+	font-size: 2.5em;
+}
+
+@media screen and (min-width: 900px) {
+	.entry-title {
+		font-size: 3em;
+	}
+}
+
+.entry-title a {
+	text-decoration: none;
+}
+
+.entry-title a:focus, .entry-title a:hover {
+	color: black;
+	border-top: 5px solid #7F7F00;
+	border-bottom: 5px solid #7F7F00;
+}
+
+.entry-meta {
+	font-size: 90%;
+}
+
+.entry-meta a {
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.entry-meta a:focus, .entry-meta a:hover {
+	color: black;
+	border-top: 3px solid #7F7F00;
+	border-bottom: 3px solid #7F7F00;
+}
+
+/*
+.byline {
+    &::after {
+      content: "|";
+      margin: 0 .5em;
+    }
+}
+*/
+.comments-link::after, .edit-link::after {
+	content: "|";
+	margin: 0 .5em;
+}
+
 .byline,
 .updated:not(.published) {
 	display: none;
