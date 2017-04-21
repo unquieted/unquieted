@@ -28,6 +28,15 @@
 		endif; ?>
 	</header><!-- .entry-header -->
         
+                <?php
+                if( has_post_thumbnail() ) { ?>
+        <figure class="featured-image">
+                <?php
+                    the_post_thumbnail();
+                ?>
+        </figure>
+                <?php } ?>
+        
         <section class ="post-content">
             
             <?php
