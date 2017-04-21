@@ -1451,6 +1451,13 @@ ul.children.toggled-on {
 	word-wrap: break-word;
 }
 
+.bypostauthor .avatar {
+	box-sizing: content-box;
+	border: 5px solid #7F7F00;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
