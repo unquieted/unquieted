@@ -50,37 +50,37 @@
 		endif; 
             ?>
 
-	<div class="entry-content">
-		<?php
-			the_content( sprintf(
-				/* translators: %s: Name of current post. */
-				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'unquieted' ), array( 'span' => array( 'class' => array() ) ) ),
-				the_title( '<span class="screen-reader-text">"', '"</span>', false )
-			) );
+            <div class="entry-content">
+                    <?php
+                            the_content( sprintf(
+                                    /* translators: %s: Name of current post. */
+                                    wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'unquieted' ), array( 'span' => array( 'class' => array() ) ) ),
+                                    the_title( '<span class="screen-reader-text">"', '"</span>', false )
+                            ) );
 
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'unquieted' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-content -->
+                            wp_link_pages( array(
+                                    'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'unquieted' ),
+                                    'after'  => '</div>',
+                            ) );
+                    ?>
+            </div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php unquieted_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-        
-                <?php if ( !is_active_sidebar('sidebar-1') ) : ?>
-        </div><!-- .post_content__body -->
-        </div><!-- .post_content__wrap -->
-                <?php endif; ?>
-                <?php 
-                        unquieted_post_navigation();
+            <footer class="entry-footer">
+                    <?php unquieted_entry_footer(); ?>
+            </footer><!-- .entry-footer -->
 
-                        // If comments are open or we have at least one comment, load up the comment template.
-                        if ( comments_open() || get_comments_number() ) :
-                                comments_template();
-                        endif;
-                ?>
+                    <?php if ( !is_active_sidebar('sidebar-1') ) : ?>
+            </div><!-- .post_content__body -->
+            </div><!-- .post_content__wrap -->
+                    <?php endif; ?>
+                    <?php 
+                            unquieted_post_navigation();
+
+                            // If comments are open or we have at least one comment, load up the comment template.
+                            if ( comments_open() || get_comments_number() ) :
+                                    comments_template();
+                            endif;
+                    ?>
 
         </section><!-- .post-content -->
         
