@@ -43,6 +43,19 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
+        
+        <div class="continue-reading">
+            <?php 
+                $read_more_link = sprintf(
+                    /* translators: %s: Name of current post. */
+                    wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'unquieted' ), array( 'span' => array( 'class' => array() ) ) ),
+                    the_title( '<span class="screen-reader-text">"', '"</span>', false )); 
+            ?>
+            <a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark">
+                <?php echo $read_more_link; ?>
+            </a>
+            
+        </div><!-- .continue-reading -->
 
 	<!-- <footer class="entry-footer">
 		<?php unquieted_entry_footer(); ?>
