@@ -10,6 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="post__content">
 	<header class="entry-header">
             
                 <?php unquieted_the_category_list(); ?>
@@ -43,7 +44,8 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<!-- <footer class="entry-footer">
 		<?php unquieted_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer> --><!-- .entry-footer -->
+    </div><!-- .post__content -->
 </article><!-- #post-## -->
