@@ -159,3 +159,12 @@ function unquieted_post_navigation() {
 			'<span class="post-title">%title</span>',
 	) );
 }
+
+/**
+ * Customize ellipses at end of excerpts
+ */
+
+function unquieted_excerpt_more( $more ){
+    return ". . . .";
+}
+add_filter('excerpt_more', 'unquieted_excerpt_more');
