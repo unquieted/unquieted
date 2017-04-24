@@ -10,6 +10,17 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    
+                <?php
+                if( has_post_thumbnail() ) { ?>
+        <figure class="index-image">
+            <a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark">
+                <?php
+                    the_post_thumbnail('unquieted-index-img');
+                ?>
+            </a>
+        </figure>
+                <?php } ?>
     <div class="post__content">
 	<header class="entry-header">
             

@@ -42,7 +42,7 @@ function unquieted_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
         
-        
+        add_image_size( 'unquieted-index-img', 800, 450, true);
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(

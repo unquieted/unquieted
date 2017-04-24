@@ -905,6 +905,16 @@ a:hover, a:active {
 	}
 }
 
+.index-image img {
+	display: block;
+	margin: 0 auto;
+}
+
+.index-image a:focus > img,
+.index-image a:hover > img {
+	opacity: .5;
+}
+
 .continue-reading {
 	right: 0;
 	bottom: 0;
