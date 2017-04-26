@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying search results pages
+ * The template for displaying search results pages.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
@@ -28,11 +28,15 @@ get_header(); ?>
 				 * If you want to overload this in a child theme then include a file
 				 * called content-search.php and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content', 'search' );
+				get_template_part( 'template-parts/content' );
 
 			endwhile;
 
-			the_posts_navigation();
+                        the_posts_pagination( array(
+				'prev_text' => __( 'Newer', 'unquieted' ),
+				'next_text' => __( 'Older', 'unquieted' ),
+				'before_page_number' => '<span class="screen-reader-text">' . __( 'Page ', 'unquieted' ) . '</span>',
+			));
 
 		else :
 

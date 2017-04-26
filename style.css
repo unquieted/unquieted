@@ -913,7 +913,8 @@ a:hover, a:active {
 	background-color: #EEE;
 }
 
-.archive-view .post {
+.archive-view .post, .archive-view .page {
+	position: relative;
 	background-color: #FFF;
 }
 
