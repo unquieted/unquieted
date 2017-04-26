@@ -946,6 +946,18 @@ a:hover, a:active {
 	}
 }
 
+.page-header {
+	font-family: Codystar, monospace;
+}
+
+.page-title {
+	margin: 0 0 .5em;
+}
+
+.archive-description {
+	margin: -1em 0 2em;
+}
+
 .sticky {
 	border-width: 0 2px 2px 0;
 	border-color: rgba(62, 0, 127, 0.3);
