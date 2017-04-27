@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the footer
+ * The template for displaying the footer.
  *
  * Contains the closing of the #content div and all content after.
  *
@@ -13,15 +13,31 @@
 
 	</div><!-- #content -->
 
+	<?php get_sidebar( 'footer' ); ?>
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
-            <nav class="social-menu">
-                <?php wp_nav_menu( array( 'theme_location' => 'menu-social' ) ); ?>
-            </nav><!-- .social-menu --> 
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'unquieted' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'unquieted' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'unquieted' ), 'unquieted', '<a href="https://automattic.com/" rel="designer">edward ingram</a>' ); ?>
-		</div><!-- .site-info -->
+		<div class="site-footer__wrap">
+			<?php
+			// Make sure there is a social menu to display.
+			if ( has_nav_menu( 'social' ) ) { ?>
+			<nav class="social-menu">
+				<?php
+					wp_nav_menu( array(
+						'theme_location' => 'social',
+						'menu_class'     => 'social-links-menu',
+						'depth'          => 1,
+						'link_before'    => '<span class="screen-reader-text">',
+						'link_after'     => '</span>' . unquieted_get_svg( array( 'icon' => 'chain' ) ),
+					) );
+				?>
+			</nav><!-- .social-menu -->
+			<?php } ?>
+
+			<div class="site-info">
+				<div><a href="<?php echo esc_url( __( 'https://wordpress.org/', 'unquieted' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'unquieted' ), 'WordPress' ); ?></a></div>
+				<div><?php printf( esc_html__( 'Theme: %1$s by %2$s', 'unquieted' ), 'unquieted', '<a href="https://edwardingram.com" rel="designer">edward ingram</a>' ); ?></div>
+			</div><!-- .site-info -->
+		</div><!-- .site-footer__wrap -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
