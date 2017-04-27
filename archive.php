@@ -44,8 +44,8 @@ endif; ?>
 			endwhile;
 
 			the_posts_pagination( array(
-				'prev_text' => __( 'Newer', 'unquieted' ),
-				'next_text' => __( 'Older', 'unquieted' ),
+				'prev_text' => unquieted_get_svg( array( 'icon' => 'arrow-left' ) ) . __( 'Newer', 'unquieted' ),
+				'next_text' => __( 'Older', 'unquieted' ) . unquieted_get_svg( array( 'icon' => 'arrow-right' ) ),
 				'before_page_number' => '<span class="screen-reader-text">' . __( 'Page ', 'unquieted' ) . '</span>',
 			));
 
