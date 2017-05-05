@@ -603,7 +603,6 @@ a:hover, a:active {
 .comment-content a {
 	text-decoration: none;
 	border-bottom: 3px solid #7F7F00;
-	border-top: 3px solid #7F7F00;
 }
 
 .page-content a:focus, .page-content a:hover,
@@ -613,7 +612,8 @@ a:hover, a:active {
 .entry-summary a:hover,
 .comment-content a:focus,
 .comment-content a:hover {
-	color: #7F7F00;
+	color: #fff;
+	background-color: #7F7F00;
 }
 
 /*--------------------------------------------------------------
