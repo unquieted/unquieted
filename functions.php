@@ -95,6 +95,8 @@ function unquieted_fonts_url() {
 	 */
 	$source_sans_pro = _x( 'on', 'Source Sans Pro font: on or off', 'unquieted' );
 	$pt_serif = _x( 'on', 'PT Serif font: on or off', 'unquieted' );
+        
+        $codystar_display = _x( 'on', 'Codystar font: on or off', 'unquieted' );
 
 	$font_families = array();
 
@@ -106,8 +108,11 @@ function unquieted_fonts_url() {
 		$font_families[] = 'PT Serif:400,400i,700,700i';
 	}
 
+        if ( 'off' !== $codystar_display ) {
+                $font_families[] = 'Codystar|Open+Sans:400,400i,800';
+        }
 
-	if ( in_array( 'on', array($source_sans_pro, $pt_serif) ) ) {
+                if ( in_array( 'on', array($source_sans_pro, $pt_serif, $codystar_display) ) ) {
 
 		$query_args = array(
 			'family' => urlencode( implode( '|', $font_families ) ),
