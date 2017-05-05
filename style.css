@@ -660,6 +660,7 @@ a:hover, a:active {
 
 .nav-previous {
 	padding-bottom: 1em;
+	overflow: hidden;
 }
 
 @media screen and (min-width: 900px) {
