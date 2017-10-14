@@ -37,7 +37,7 @@ function unquieted_setup() {
 
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
-	 *
+	 * 'post thumbnails' is old name for 'featured images'
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
@@ -229,6 +229,7 @@ function unquieted_post_thumbnail_sizes_attr( $attr, $attachment, $size ) {
 	return $attr;
 }
 add_filter( 'wp_get_attachment_image_attributes', 'unquieted_post_thumbnail_sizes_attr', 10, 3 );
+
 
 
 
