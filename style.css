@@ -5,7 +5,7 @@ Theme URI: https://github.com/unquieted/unquieted
 Author: edward ingram
 Author URI: edwardingram.com
 Description: a most unquieted theme
-Version: 1.0.1
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: unquieted
@@ -294,6 +294,7 @@ h1 {
 	margin-top: .75em;
 	margin-bottom: .25em;
 	font-family: "Dot Matrix", Codystar, monospace;
+	color: #555555;
 	clear: both;
 	font-size: 3em;
 }
@@ -302,6 +303,7 @@ h2 {
 	margin-top: .75em;
 	margin-bottom: .25em;
 	font-family: "Dot Matrix", Codystar, monospace;
+	color: #555555;
 	clear: both;
 	font-size: 2.4em;
 }
