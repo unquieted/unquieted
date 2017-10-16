@@ -626,6 +626,19 @@ a:hover, a:active {
 	background-color: #7F7F00;
 }
 
+h1 a,
+h2 a {
+	color: #555555;
+	text-decoration: none;
+}
+
+h1 a:focus, h1 a:hover,
+h2 a:focus,
+h2 a:hover {
+	color: #fff;
+	background-color: #7F7F00;
+}
+
 /*--------------------------------------------------------------
 ## Content navigation
 --------------------------------------------------------------*/
@@ -1355,7 +1368,7 @@ ul.children.toggled-on {
 
 .entry-title a {
 	text-decoration: none;
-	color: black;
+	color: #555555;
 }
 
 .entry-title a:focus, .entry-title a:hover {

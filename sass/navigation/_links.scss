@@ -34,3 +34,18 @@ a {
     
     }
 }
+
+h1,
+h2 {
+    a {
+        color: $color__dot;
+        text-decoration: none;
+        
+        &:focus,
+        &:hover {
+            color: $color__background-body;
+            background-color: $color__interactive;
+        }
+    
+    }
+}
