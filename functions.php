@@ -46,8 +46,8 @@ function unquieted_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Header', 'unquieted' ),
-		'social' => esc_html__( 'Social Media Menu', 'unquieted' ),
+		'primary' => esc_html__( 'Header (Primary) Menu', 'unquieted' ),
+		'social' => esc_html__( 'Footer (Social Media) Menu', 'unquieted' ),
 	) );
 
 	/*
