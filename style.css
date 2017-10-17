@@ -273,7 +273,7 @@ input,
 select,
 textarea {
 	color: #000000;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-size: 1.125rem;
 	line-height: 1.5;
@@ -311,7 +311,7 @@ h2 {
 h3, h4, h5, h6 {
 	margin-top: .75em;
 	margin-bottom: .25em;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	clear: both;
 }
 
@@ -352,7 +352,7 @@ blockquote:before {
 	top: -.2em;
 	left: -.13em;
 	content: "“";
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	font-size: 12em;
 	line-height: 100%;
 	color: white;
@@ -647,7 +647,7 @@ h2 a:hover {
 .post-navigation,
 .paging-navigation {
 	padding: 2em 0;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	text-align: left;
 	overflow: hidden;
 }
@@ -747,7 +747,7 @@ h2 a:hover {
 }
 
 .pagination {
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 }
 
 .pagination .nav-links {
@@ -981,7 +981,7 @@ h2 a:hover {
 }
 
 .page-header {
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 }
 
 .page-title {
@@ -997,7 +997,7 @@ h2 a:hover {
 .error-404 .page-content {
 	margin-bottom: 2em;
 	padding: 1em 2em;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	color: white;
 	background: #7F7F00;
 }
@@ -1040,7 +1040,7 @@ h2 a:hover {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 }
 
 .continue-reading a {
@@ -1072,7 +1072,7 @@ h2 a:hover {
 .site-header {
 	position: relative;
 	padding: 1em;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	color: #fff;
 	background-color: #3E007F;
 }
@@ -1173,7 +1173,7 @@ and open the template in the editor.
 */
 .main-navigation {
 	display: block;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	clear: left;
 }
@@ -1336,7 +1336,7 @@ ul.children.toggled-on,
 }
 
 .entry-header {
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 }
 
 .cat-links {
@@ -1377,7 +1377,7 @@ ul.children.toggled-on,
 
 .entry-meta,
 .entry-footer {
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	font-size: 90%;
 }
 
@@ -1509,7 +1509,7 @@ ul.children.toggled-on,
 
 .entry-footer {
 	margin: 1.5em 0;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1546,7 +1546,7 @@ ul.children.toggled-on,
 .comment-meta {
 	position: relative;
 	margin-left: 70px;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	font-size: 80%;
 }
 
@@ -1651,7 +1651,7 @@ ul.children.toggled-on,
 .reply a {
 	display: inline-block;
 	padding: .5em 1.4em;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	font-size: 85%;
 	color: #000;
 	line-height: 1.3em;
@@ -1690,7 +1690,7 @@ ul.children.toggled-on,
 }
 
 .comment-form {
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	line-height: 1.3em;
 }
 
@@ -1734,7 +1734,7 @@ ul.children.toggled-on,
 .site-footer {
 	position: relative;
 	padding: 1em;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	color: #fff;
 	background-color: #3E007F;
 	text-align: center;
@@ -1829,7 +1829,7 @@ ul.children.toggled-on,
 .widget {
 	margin: 0 0 2em;
 	padding: 0 0 2em;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	/* Make sure select elements fit in widgets. */
 }
 
@@ -1875,7 +1875,7 @@ ul.children.toggled-on,
 	width: 100%;
 	height: 2.5em;
 	padding: 10px;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	border: 1px solid #ccc;
 }
 
@@ -1961,7 +1961,7 @@ ul.children.toggled-on,
 
 .rssSummary {
 	padding: .5em 0;
-	font-family: "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-family: "Roboto Mono", "Open Sans", "Lucida Grande", Arial, Helvetica, sans-serif;
 	font-size: .8em;
 	line-height: 1.4em;
 }
