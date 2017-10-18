@@ -1,10 +1,15 @@
 @font-face {
-   font-family: 'Dot Matrix';
-   src: url("fonts/DOTMATRI.ttf") format("truetype");
+    font-family: 'Dot-Matrix';
+    src:url('fonts/Dot-Matrix.ttf.woff') format('woff'),
+        url('fonts/Dot-Matrix.ttf.svg#Dot-Matrix') format('svg'),
+        url('fonts/Dot-Matrix.ttf.eot'),
+        url('fonts/Dot-Matrix.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
 }
 
 $font__sans: 'Roboto Mono', 'Open Sans', 'Lucida Grande', Arial, Helvetica, sans-serif;
-$font__display: 'Dot Matrix', Codystar, monospace;
+$font__display: 'Dot-Matrix', Codystar, monospace;
 $font__main: 'Roboto Mono', sans-serif;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;

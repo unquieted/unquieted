@@ -5,7 +5,7 @@ Theme URI: https://github.com/unquieted/unquieted
 Author: edward ingram
 Author URI: edwardingram.com
 Description: a most unquieted theme
-Version: 1.1.0
+Version: 1.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: unquieted
@@ -46,8 +46,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 @font-face {
-	font-family: 'Dot Matrix';
-	src: url("fonts/DOTMATRI.ttf") format("truetype");
+	font-family: 'Dot-Matrix';
+	src: url("fonts/Dot-Matrix.ttf.woff") format("woff"), url("fonts/Dot-Matrix.ttf.svg#Dot-Matrix") format("svg"), url("fonts/Dot-Matrix.ttf.eot"), url("fonts/Dot-Matrix.ttf.eot?#iefix") format("embedded-opentype");
+	font-weight: normal;
+	font-style: normal;
 }
 
 /*--------------------------------------------------------------
@@ -293,7 +295,7 @@ textarea {
 h1 {
 	margin-top: .75em;
 	margin-bottom: .25em;
-	font-family: "Dot Matrix", Codystar, monospace;
+	font-family: "Dot-Matrix", Codystar, monospace;
 	color: #555555;
 	clear: both;
 	font-size: 3em;
@@ -302,7 +304,7 @@ h1 {
 h2 {
 	margin-top: .75em;
 	margin-bottom: .25em;
-	font-family: "Dot Matrix", Codystar, monospace;
+	font-family: "Dot-Matrix", Codystar, monospace;
 	color: #555555;
 	clear: both;
 	font-size: 2.4em;
@@ -1120,7 +1122,7 @@ h2 a:hover {
 	font-size: 1.6em;
 	font-weight: 900;
 	line-height: 1em;
-	font-family: "Dot Matrix", Codystar, monospace;
+	font-family: "Dot-Matrix", Codystar, monospace;
 }
 
 .site-title a {
