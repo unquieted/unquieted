@@ -344,7 +344,7 @@ dfn, cite, em, i {
 blockquote {
 	position: relative;
 	margin: 0 0 1em;
-	background: #eee;
+	background: #555;
 	padding: 1em 2em .5em 5em;
 	font-style: italic;
 }
@@ -365,8 +365,9 @@ address {
 }
 
 pre {
-	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
+	color: #F2FFCC;
+	background: #555;
+	font-family: "Andale Mono", "DejaVu Sans Mono", Consolas, "Lucida Console", Monaco, "Courier 10 Pitch", Courier, monospace;
 	font-size: 18.75px;
 	font-size: 1.17188rem;
 	line-height: 1.6;
@@ -377,7 +378,7 @@ pre {
 }
 
 code, kbd, tt, var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-family: "Andale Mono", "DejaVu Sans Mono", Consolas, "Lucida Console", Monaco, monospace;
 	font-size: 18.75px;
 	font-size: 1.17188rem;
 }
