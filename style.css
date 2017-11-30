@@ -5,7 +5,7 @@ Theme URI: https://github.com/unquieted/unquieted
 Author: edward ingram
 Author URI: edwardingram.com
 Description: a most unquieted theme
-Version: 1.1.1
+Version: 1.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: unquieted
@@ -375,6 +375,7 @@ pre {
 	max-width: 100%;
 	overflow: auto;
 	padding: 1.6em;
+	white-space: pre-wrap;
 }
 
 code, kbd, tt, var {
